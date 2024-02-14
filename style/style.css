@@ -1,18 +1,8 @@
-*{
-    margin : 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "caviar";
+
      
-    /*Possibilité d'ajout de variables de couleur - charte graphique*/
-}
-.scroll-container {
-  overflow: auto;
-  -webkit-scroll-snap-type: y mandatory;
-      -ms-scroll-snap-type: y mandatory;
-          scroll-snap-type: y mandatory;
-}
-@font-face {
+      
+     
+     @font-face {
     font-family: "caviar";
     src: url("./caviar.ttf");
 }
@@ -20,6 +10,147 @@
     font-family: "caviar gras";
     src: url("./caviarB.ttf");
 }
+
+* {
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box;
+  font-family : "caviar";
+}
+      
+       
+      #message-header {
+        height: 10vh;
+        background-color: #e4e4e4;
+      }
+
+      #logo {
+        aspect-ratio: 1;
+        max-height: 80%;
+      }
+
+      .img-logo {
+        max-height: 70%;
+      }
+
+      #maison {
+        height: 10vh;
+        aspect-ratio: 1;
+        max-height: 90%;
+      }
+
+      .img-maison {
+        max-height: 70%;
+        margin-left: 290%;
+       }
+
+      #Rectangleo {
+        aspect-ratio: 1;
+        max-height: 90%;
+        position: absolute;
+        height: 100px;
+        width: 400vh;
+        left: 0%;
+        top: 150px;
+        background: #fd7e14; 
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25)inset;
+        border-radius: 20px;
+      }
+
+      .fléche {
+        aspect-ratio: 1;
+        margin-top: auto;
+        top: auto;
+      }
+      .clé {
+        height: 10vh;
+        aspect-ratio: 1;
+        max-height: 90%;
+      }
+
+      .img-clé {
+        max-height: 70%;
+        margin-left: 290%;
+       }
+
+      .rec-ora {
+        background-color: #fd7e14;
+      }
+
+      #Rectangleb {
+        aspect-ratio: 1;
+        max-height: 90%;
+        position: absolute;
+        height: 60px;
+        width: 400vh;
+        left: 0px;
+        top: 270px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25) inset;
+        border-radius: 20px 20px 20px 0px;
+      }
+  
+
+      #Rectanglema {
+        aspect-ratio: 1;
+        max-height: 90%;
+        position: absolute;
+        width: 400vh;
+        height: 70px;
+        left: 0px;l
+        top: 350px;
+        background: linear-gradient(180deg, #DB488D 0%, #E5884A 100%);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25) inset;
+        border-radius: 20px 20px 0px 20px;
+      }
+  
+
+      .rec-mau {
+        background: linear-gradient(180deg, #DB488D 0%, #E5884A 100%);
+      }
+
+
+      #Rectangleb2 {
+        aspect-ratio: 1;
+        max-height: 90%;
+        position: absolute;
+        width: 400vh;
+        height: 70px;
+        left: 0px;
+        top: 430px;       
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25)inset;
+        border-radius: 20px 20px 20px 0px;
+      }
+  
+
+     
+      .message {
+        min-height: 10vh;
+        border-radius: 15px;
+        box-shadow: 2px 2px 5px 0;
+      
+      }
+
+      .input{
+        top: 115%;
+        width: 60%;
+        position: absolute;
+        left: 20%;
+      }
+
+      
+
+
+
+}
+.scroll-container {
+  overflow: auto;l
+  -webkit-scroll-snap-type: y mandatory;
+      -ms-scroll-snap-type: y mandatory;
+          scroll-snap-type: y mandatory;
+}
+
 article {
     border: 1px dashed #666;
     padding: 20px;

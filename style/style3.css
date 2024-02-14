@@ -1,0 +1,50 @@
+#message-header {
+  height: 10vh;
+  background-color: #e4e4e4;
+}
+
+#logo {
+  aspect-ratio: 1;
+  max-height: 80%;
+}
+
+.img-logo {
+  max-height: 70%;
+}
+
+#maison {
+  height: 10vh;
+  aspect-ratio: 1;
+  max-height: 90%;
+}
+
+.img-maison {
+  max-height: 70%;
+  margin-left: 290%;
+ }
+
+ .message {
+  min-height: 10vh;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px 0;
+
+}
+
+.rec-ora {
+  background-color: #fd7e14;
+}
+
+#Rectangleb {
+  aspect-ratio: 1;
+  max-height: 90%;
+  position: absolute;
+  height: 60px;
+  width: 400vh;
+  left: 0px;
+  top: 270px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25) inset;
+  border-radius: 20px 20px 20px 0px;
+}
+
+

@@ -32,7 +32,7 @@
   <h2> <img class="rounded-circle" src="../asset/icone/olivier.png"  width='70' height='70' alt="" > Olivier burcker</h2>
   <img src="../asset/icone/prepanum.jpg"  class="img-fluid" alt="" srcset="">
   <h3>La Prépa Numérique arrive</h3>
-  <small>La Prépa Numérique arrive a roubaix en mai 2024. <br> decouvrer le monde du numerique pour une durée de 4 mois <br> <a href="../view/postView.php"> cliquez ici pour en savoir plus</a>  </small>
+  <small>La Prépa Numérique larrive a roubaix en mai 2024. <br> decouvrer le monde du numerique pour une durée de 4 mois <br> <a href="../view/postView.php"> cliquez ici pour en savoir plus</a>  </small>
 
   
   </div>
@@ -84,3 +84,4 @@
 
 
 </body>
+
