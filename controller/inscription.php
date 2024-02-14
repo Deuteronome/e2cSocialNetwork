@@ -9,5 +9,5 @@ require_once('../model/model.php');
     - récupération des données entrantes ($_SESSION, $_POST, $_GET)
 */
 
-require_once('../view/homeView.php');
+require_once('../view/inscriptionView.php');
 /*rien en dessous - l'appel à la vue marque la fin du controller*/

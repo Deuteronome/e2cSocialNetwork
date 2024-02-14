@@ -1,172 +1,23 @@
-.carre3{
-position: absolute;
-width: 200px;
-height: 80px;
-left: 220px;
-top: 390px;
-background: linear-gradient(180deg, #DB488D 0%, #E5884A 100%);
-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25) inset;
-border-radius: 20px 20px 0px 20px;
+
+     
+      
+     
+     @font-face {
+    font-family: "caviar";
+    src: url("./caviar.ttf");
+}
+@font-face {
+    font-family: "caviar gras";
+    src: url("./caviarB.ttf");
 }
 
-.carre4{
-    position: absolute;
-    width: 330px;
-    height: 60px;
-    left: 35px;
-    top: 530px;   
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25) inset;
-    border-radius: 20px 20px 20px 0px;
-    }
-
-    .carre5{
-     position: absolute;
-     width: 330px;
-     height: 180px;
-     left: 35px;
-     top: 600px;       
-     background: #FFFFFF;
-     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25)inset;
-     border-radius: 20px 20px 20px 0px;
-    }
-
-    .carre6{
-     position: absolute;
-     width: 270px;
-     height: 90px;
-     left: 150px;
-     top: 800px;   
-     background: linear-gradient(180deg, #DB488D 0%, #E5884A 100%);
-     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25)inset;
-     border-radius: 20px 20px 0px 20px;
-     }
-
-.carre7{
-box-sizing: border-box;
-position: absolute;
-width: 380px;
-height:50px;
-left: 50px;
-top: 900px;
-background: #ffffff;
-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25)inset;
-border-radius: 20px;
+* {
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box;
+  font-family : "caviar";
 }
-
-
-.carre8{
-    box-sizing: border-box;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 0px;
-    top: 898px;  
-    background: #ffffff;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25)inset;
-    border-radius: 20px;
-    }
-
-.carre9{ 
-    position: absolute;
-    width: 437px;
-    height: 100px;
-    left: 0px;
-    top: 0px;    
-    background: #e4e4e4;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25)inset;
-    border-radius: 10px;
-    }
-
-    .carre10{
-      position: absolute;
-      width: 50px;
-      height: 50px;
-      left: 380px;
-      top: 10px;
-      background:#ffffff;
-      border-radius: 10px;
-      border: 1px solid #000000;
-    }
-
-.carre11{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 320px;
-    top: 10px;
-    background:#ffffff;
-    border-radius: 10px;
-    border: 1px solid #000000;
-    }
-  
-    .div {
-        height: 50px;
-        position: relative;
-      }
       
-       .image {
-        position: absolute;
-        top: 30%;
-        left: 2%;
-      }
-
-      .div {
-        height: 50px;
-        position: relative;
-      }
-      
-       .image2 {
-        position: absolute;
-        top: -85%;
-        left: 16.6%;
-      }
-
-      .div {
-        height: 50px;
-        position: relative;
-      }
-      
-       .image3 {
-        position: absolute;
-        top: 1610%;
-        left: 0.5%;
-        width: 100%;
-      }
-
-      .div {
-        height: 50px;
-        position: relative;
-      }
-      
-       .image4 {
-        position: absolute;
-        top: 75%;
-        left: 2.5%;
-        width: 100%;
-      }
-
-      .div {
-        height: 50px;
-        position: relative;
-      }
-      
-       .image5 {
-        position: absolute;
-        top: 1420%;
-        left: 20%; 
-      }
-
-      .div {
-        height: 50px;
-        position: relative;
-      }
-      
-       .image6 {
-        position: absolute;
-        top: -130%;
-        left: 18%;
-       }
        
       #message-header {
         height: 10vh;
@@ -246,7 +97,7 @@ border-radius: 20px;
         position: absolute;
         width: 400vh;
         height: 70px;
-        left: 0px;
+        left: 0px;l
         top: 350px;
         background: linear-gradient(180deg, #DB488D 0%, #E5884A 100%);
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25) inset;
@@ -291,3 +142,16 @@ border-radius: 20px;
       
 
 
+
+}
+.scroll-container {
+  overflow: auto;l
+  -webkit-scroll-snap-type: y mandatory;
+      -ms-scroll-snap-type: y mandatory;
+          scroll-snap-type: y mandatory;
+}
+
+article {
+    border: 1px dashed #666;
+    padding: 20px;
+  }
