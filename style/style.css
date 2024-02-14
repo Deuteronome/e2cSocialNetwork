@@ -2,6 +2,25 @@
     margin : 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: "caviar";
+     
     /*Possibilité d'ajout de variables de couleur - charte graphique*/
 }
+.scroll-container {
+  overflow: auto;
+  -webkit-scroll-snap-type: y mandatory;
+      -ms-scroll-snap-type: y mandatory;
+          scroll-snap-type: y mandatory;
+}
+@font-face {
+    font-family: "caviar";
+    src: url("./caviar.ttf");
+}
+@font-face {
+    font-family: "caviar gras";
+    src: url("./caviarB.ttf");
+}
+article {
+    border: 1px dashed #666;
+    padding: 20px;
+  }

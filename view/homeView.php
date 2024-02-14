@@ -7,8 +7,80 @@
     <link rel="stylesheet" href="../style/bootstrap.css">
     <link rel="stylesheet" href="../style/style.css">
     <script src="../script/bootstrap.bundle.js"></script>
+    <script src="../script/script.js"></script>
 </head>
 <body>
-    
+
+  
+  <nav class="container-fluid">
+    <div class="row border border-3 justify-content-between my-2 align-items-center">
+        <div class="col-2 message">
+            <img class="img-fluid"  src="../asset/icone/logo.png"  alt="">
+        </div>
+        <h2 class="col-4 text-center">Home</h2>
+        
+        <div class="col-2 mt-0 rounded-end rounded-bottom  ">
+        
+            <img src="../asset/icone/message.webp"  alt=""  class="img-fluid mb-3">
+        </div>
+    </div>
+  </nav>
+  <div class="row">
+
+  <div class="col-lg-3 col-12" style="background-color:#aaa;">
+  
+  <h2> <img class="rounded-circle" src="../asset/icone/olivier.png"  width='70' height='70' alt="" > Olivier burcker</h2>
+  <img src="../asset/icone/prepanum.jpg"  class="img-fluid" alt="" srcset="">
+  <h3>La Prépa Numérique arrive</h3>
+  <small>La Prépa Numérique arrive a roubaix en mai 2024. <br> decouvrer le monde du numerique pour une durée de 4 mois <br> <a href="../view/postView.php"> cliquez ici pour en savoir plus</a>  </small>
+
+  
+  </div>
+  
+  
+  <div class="col-lg-3 col-12" style="background-color:#aaa;" >
+  
+
+  <h2><img class="rounded-circle" src="../asset/icone/sura.jpg"  width='70' height='70' alt="" >Sura Jamil-Hussain</h2>
+  <a href="../view/postView2.php">
+  <img a src="../asset/icone/hands-laptop-search-business-meeting-260nw-2197629005.webp"  class="img-fluid" alt="" srcset="" width="1000">
+  </a>
+  <h3>Remise a niveau</h3>
+  <small>la remise a niveau est de retours dés jeudi 29 fevrier <br> </small>
+  </div>
+ 
+  <div class="col-lg-3 col-12" style="background-color:#aaa;">
+  <h2> <img class="rounded-circle" src="../asset/icone/German.png"  width='70' height='70' alt="" > German  Leon-Quero</h2>
+  <a href="../view/postView3.php">
+    <img src="../asset/icone/Sans titre.jpeg" class="img-fluid" alt="" srcset="" width="2000">
+  </a>
+  <small>boulanger prends en stage!!</small>
+  </div>
+  
+  <div class="col-lg-3 col-12" style="background-color:#aaa;">
+  <h2><img class="rounded-circle" src="../asset/icone/loic.png"  width='70' height='70' alt="" >loic Ducarme</h2>
+  <a href="../view/postView4.php">
+  <img src="../asset/icone/outils-sport_53876-138077.avif" class="img-fluid" alt="" srcset="" width="1000"  >
+   
+  </a>
+  <small>en sport cette semaine...</small>
+  </div>
+  
+</div>
+<div class="row">
+  
+  <div class="d-none d-lg-block col-1"></div>
+  <div class="support-scrollsnap"></div>
+</div>
+
+    <!--
+    </div>
+    <img class="img"  src="../asset/icone/logo.png"  alt="">
+
+    <div class="message">
+        <img src="../asset/icone/message.webp"  class="rounded-5" alt=""  class="img-fluid" width="60" height="60">
+    </div>-->
+ 
+
+
 </body>
-</html>
