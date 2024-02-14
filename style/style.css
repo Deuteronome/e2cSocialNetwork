@@ -1,7 +1,293 @@
-*{
-    margin : 0;
-    padding: 0;
-    box-sizing: border-box;
-
-    /*Possibilité d'ajout de variables de couleur - charte graphique*/
+.carre3{
+position: absolute;
+width: 200px;
+height: 80px;
+left: 220px;
+top: 390px;
+background: linear-gradient(180deg, #DB488D 0%, #E5884A 100%);
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25) inset;
+border-radius: 20px 20px 0px 20px;
 }
+
+.carre4{
+    position: absolute;
+    width: 330px;
+    height: 60px;
+    left: 35px;
+    top: 530px;   
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 20px 20px 20px 0px;
+    }
+
+    .carre5{
+     position: absolute;
+     width: 330px;
+     height: 180px;
+     left: 35px;
+     top: 600px;       
+     background: #FFFFFF;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25)inset;
+     border-radius: 20px 20px 20px 0px;
+    }
+
+    .carre6{
+     position: absolute;
+     width: 270px;
+     height: 90px;
+     left: 150px;
+     top: 800px;   
+     background: linear-gradient(180deg, #DB488D 0%, #E5884A 100%);
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25)inset;
+     border-radius: 20px 20px 0px 20px;
+     }
+
+.carre7{
+box-sizing: border-box;
+position: absolute;
+width: 380px;
+height:50px;
+left: 50px;
+top: 900px;
+background: #ffffff;
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25)inset;
+border-radius: 20px;
+}
+
+
+.carre8{
+    box-sizing: border-box;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0px;
+    top: 898px;  
+    background: #ffffff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25)inset;
+    border-radius: 20px;
+    }
+
+.carre9{ 
+    position: absolute;
+    width: 437px;
+    height: 100px;
+    left: 0px;
+    top: 0px;    
+    background: #e4e4e4;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25)inset;
+    border-radius: 10px;
+    }
+
+    .carre10{
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      left: 380px;
+      top: 10px;
+      background:#ffffff;
+      border-radius: 10px;
+      border: 1px solid #000000;
+    }
+
+.carre11{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 320px;
+    top: 10px;
+    background:#ffffff;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    }
+  
+    .div {
+        height: 50px;
+        position: relative;
+      }
+      
+       .image {
+        position: absolute;
+        top: 30%;
+        left: 2%;
+      }
+
+      .div {
+        height: 50px;
+        position: relative;
+      }
+      
+       .image2 {
+        position: absolute;
+        top: -85%;
+        left: 16.6%;
+      }
+
+      .div {
+        height: 50px;
+        position: relative;
+      }
+      
+       .image3 {
+        position: absolute;
+        top: 1610%;
+        left: 0.5%;
+        width: 100%;
+      }
+
+      .div {
+        height: 50px;
+        position: relative;
+      }
+      
+       .image4 {
+        position: absolute;
+        top: 75%;
+        left: 2.5%;
+        width: 100%;
+      }
+
+      .div {
+        height: 50px;
+        position: relative;
+      }
+      
+       .image5 {
+        position: absolute;
+        top: 1420%;
+        left: 20%; 
+      }
+
+      .div {
+        height: 50px;
+        position: relative;
+      }
+      
+       .image6 {
+        position: absolute;
+        top: -130%;
+        left: 18%;
+       }
+       
+      #message-header {
+        height: 10vh;
+        background-color: #e4e4e4;
+      }
+
+      #logo {
+        aspect-ratio: 1;
+        max-height: 80%;
+      }
+
+      .img-logo {
+        max-height: 70%;
+      }
+
+      #maison {
+        height: 10vh;
+        aspect-ratio: 1;
+        max-height: 90%;
+      }
+
+      .img-maison {
+        max-height: 70%;
+        margin-left: 290%;
+       }
+
+      #Rectangleo {
+        aspect-ratio: 1;
+        max-height: 90%;
+        position: absolute;
+        height: 100px;
+        width: 400vh;
+        left: 0%;
+        top: 150px;
+        background: #fd7e14; 
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25)inset;
+        border-radius: 20px;
+      }
+
+      .fléche {
+        aspect-ratio: 1;
+        margin-top: auto;
+        top: auto;
+      }
+      .clé {
+        height: 10vh;
+        aspect-ratio: 1;
+        max-height: 90%;
+      }
+
+      .img-clé {
+        max-height: 70%;
+        margin-left: 290%;
+       }
+
+      .rec-ora {
+        background-color: #fd7e14;
+      }
+
+      #Rectangleb {
+        aspect-ratio: 1;
+        max-height: 90%;
+        position: absolute;
+        height: 60px;
+        width: 400vh;
+        left: 0px;
+        top: 270px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25) inset;
+        border-radius: 20px 20px 20px 0px;
+      }
+  
+
+      #Rectanglema {
+        aspect-ratio: 1;
+        max-height: 90%;
+        position: absolute;
+        width: 400vh;
+        height: 70px;
+        left: 0px;
+        top: 350px;
+        background: linear-gradient(180deg, #DB488D 0%, #E5884A 100%);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25) inset;
+        border-radius: 20px 20px 0px 20px;
+      }
+  
+
+      .rec-mau {
+        background: linear-gradient(180deg, #DB488D 0%, #E5884A 100%);
+      }
+
+
+      #Rectangleb2 {
+        aspect-ratio: 1;
+        max-height: 90%;
+        position: absolute;
+        width: 400vh;
+        height: 70px;
+        left: 0px;
+        top: 430px;       
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25)inset;
+        border-radius: 20px 20px 20px 0px;
+      }
+  
+
+     
+      .message {
+        min-height: 10vh;
+        border-radius: 15px;
+        box-shadow: 2px 2px 5px 0;
+      
+      }
+
+      .input{
+        top: 115%;
+        width: 60%;
+        position: absolute;
+        left: 20%;
+      }
+
+      
+
+

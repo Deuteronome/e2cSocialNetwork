@@ -9,6 +9,9 @@
     <script src="../script/bootstrap.bundle.js"></script>
 </head>
 <body>
-    
-</body>
-</html>
+    <header>
+        <h1>Messageries</h1>
+        <h2></h2>
+    </header>
+    <div class="carre"></div>
+    <div class="carre2"></div>
