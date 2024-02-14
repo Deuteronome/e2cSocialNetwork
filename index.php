@@ -1,3 +1,3 @@
 <?php
 
-header('location: ./controller/messagerie.php');
+header('location: ./controller/connexion.php');
