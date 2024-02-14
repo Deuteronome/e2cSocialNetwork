@@ -1,7 +1,7 @@
 <?php
 session_start();//première fonction à utiliser - si besoin de la variable $_SESSION
 
-require_once('../model/model.php');
+require_once('../model/post4.php');
 
 /*travail de controller 
     - définition des variables
@@ -9,5 +9,5 @@ require_once('../model/model.php');
     - récupération des données entrantes ($_SESSION, $_POST, $_GET)
 */
 
-require_once('../view/homeView.php');
+require_once('../view/postView4.php');
 /*rien en dessous - l'appel à la vue marque la fin du controller*/
