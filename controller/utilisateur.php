@@ -39,3 +39,4 @@ $user = recUtilParPseudo($bdd ,$pseudo);
 
     header("location:../controller/connexion.php?message=$message");
 }
+
