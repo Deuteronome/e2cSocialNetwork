@@ -20,7 +20,9 @@
 
       <label for="password">mot de passe:</label>
       <input type="password" id="password" name="password" required>
-      <input type="submit"  class="connexion btn btn-light" value="Se Connecter"> 
+
+      <input type="submit"  class="connexion btn btn-primary" value="Se connecter" > 
+
       <a  class="text-decoration-none " href="../view/inscriptionView.php">je n'ai pas de compte</a>
     </form>
     
