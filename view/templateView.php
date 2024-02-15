@@ -18,8 +18,8 @@
         <h2 class="col-4 text-center">Home</h2>
         
         <div class="col-2 mt-0 rounded-end rounded-bottom  ">
-        
-            <img src="../asset/icone/message.webp"  alt=""  class="img-fluid mb-3">
+           <a class="bouton" href="../controller/home.php">
+            <img src="../asset/icone/message.webp"  alt=""  class="img-fluid mb-3"></a>
         </div>
     </div>
 </nav>

@@ -17,7 +17,8 @@
         <div class="col-3">
 
             <div class="class col-2" id="maison">
-                <img src="../asset/house_1f3e0.png" alt="maison" class="img-maison">
+               <a class="bouton" href="../controller/home.php">
+                <img src="../asset/house_1f3e0.png" alt="maison" class="img-maison"></a>
             </div>
         </div>
     </header>
@@ -33,8 +34,8 @@
              
     </div>
     
-
-    <div class="row p-2 justify-content-between my-1 rec-ora message">
+    <a class="bouton" href="../controller/messagerie.php">
+     <div class="row p-2 justify-content-between my-1 rec-ora message">
         <div class="col-2  p-0 mx-1"  >
             <img src="../asset/olivier.png" width="60vh" alt="photo" class="img-fluid">
             </div>
@@ -52,7 +53,7 @@
           </div>
 
     </div>
-   
+    </a>
     
 
     <div class="row p-4 justify-content-end my-1 rec-ora message">
