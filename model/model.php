@@ -30,4 +30,28 @@ function recUtilParPseudo($bdd, $pseudo) {
         return $req;
 
 }
+function AjoutUilisateur ($bdd, $pseudo, $password, $prenom, $name) {
+    
+  $sqlQuery = " INSERT INTO utilisateur (pseudo, mdp , prenom , nom) VALUE(:pseudo, :mdp, :prenom, :nom)";
+  $logStatement = $bdd->prepare($sqlQuery);
+  try {
+    $logStatement->execute([
+      'pseudo' => $pseudo,
+      'nom' => $name,
+      'prenom' => $prenom,
+      'mdp'  => $password
+      ]);
+  } catch(Exception $e) {
+    return false;
+  }
+  
+  
+  $logStatement->closeCursor();
+
+  return true;
+
+}
+
+
+
 
