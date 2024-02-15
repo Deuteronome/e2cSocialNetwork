@@ -6,6 +6,7 @@ require_once('../model/model.php');
 $pseudo= htmlspecialchars($_POST['username']);
 $password= htmlspecialchars($_POST['password']);
 
+
 if(!empty($pseudo)&& !empty($password)) {
 $bdd = connectDb();
 $user = recUtilParPseudo($bdd ,$pseudo);
