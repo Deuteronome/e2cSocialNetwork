@@ -14,21 +14,27 @@
         <div class="col-2" id="logo">
             <img src="../asset/Logo E2C.png" alt="logo" class="img-logo">
         </div>
-        <div class="col-3">
 
+   
+        
+        <div class="col-3">
             <div class="class col-2" id="maison">
-                <img src="../asset/house_1f3e0.png" alt="maison" class="img-maison">
+            <a class="bouton" href="../controller/home.php">
+                <img src="../asset/house_1f3e0.png" alt="maison" class="img-maison"></a>
             </div>
         </div>
+
+    
     </header>
 
     <div class="row mb-4 px-4 justify-content-between align-items-center rec-ora message mx-2">
-
                 <div class="col-3">
                     <div class="row justify-content-start align-items-center">
                     <div class="col-5 p-0 text-center">
-                    <img src="../asset/Icon_akar-backspace.png" alt="fléche" class="img-fluid">
+                    <a class="bouton" href="../controller/listeAmi.php">
+                    <img src="../asset/Icon_akar-backspace.png" alt="fléche" class="img-fluid"></a>
                 </div>
+
             
 
                 <div class="col-5  p-0  justify-content-between">

@@ -8,7 +8,8 @@
     <script src="../script/script.js"></script>
 </head>
 <body>
-    <img src="../asset/inscription.connection/connexion.png" class="img-fluid"  alt="" srcset="">
+    <a class="bouton" href="../controller/home.php">
+    <img src="../asset/inscription.connection/connexion.png" class="img-fluid"  alt="" srcset=""></a>
     
     
     <form class="form" method="post" action="#">
