@@ -42,17 +42,15 @@
     border-color: #f65814;
   }
   
-  button {
+  .connexion {
     background-color: #ffaa56;
     color: #000000;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
+    
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
   }
   
-  button:hover {
+  .connexion:hover {
     background-color: #fa8f5e;
   }
   .col-size {

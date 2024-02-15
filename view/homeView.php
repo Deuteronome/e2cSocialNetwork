@@ -14,7 +14,7 @@
   
   <nav class="container-fluid">
     <div class="row border border-3 justify-content-between my-2 align-items-center">
-        <div class="col-2 message">
+        <div class="col-2">
             <img class="img-fluid"  src="../asset/icone/logo.png"  alt="">
         </div>
         <h2 class="col-4 text-center">Home</h2>
