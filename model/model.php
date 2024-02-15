@@ -13,3 +13,21 @@ function connectDb() {
 }
 
 /*Ensuite les fonction d'accès aux données (CRUD : create, read, update, delete)*/
+
+/*première function : on veut récupérer id, son pseudo, son mot de passe un utilisateur par son pseudo*/
+
+
+function recUtilParPseudo($bdd, $pseudo) {
+    
+        $sqlQuery = " SELECT id,pseudo,mdp FROM utilisateur WHERE pseudo = :pseudo ";
+        $logStatement = $bdd->prepare($sqlQuery);
+        $logStatement->execute([
+        'pseudo' => $pseudo
+         ]);
+        $req = $logStatement->fetch();
+        $logStatement->closeCursor();
+    
+        return $req;
+
+}
+
