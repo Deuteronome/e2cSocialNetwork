@@ -1,3 +1,5 @@
 <?php
 
-header('location: ./controller/create-post.php');
+
+header('location: ./controller/connexion.php');
+
