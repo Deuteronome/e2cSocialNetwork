@@ -8,65 +8,98 @@
     <link rel="stylesheet" href="../style/style.css">
     <script src="../script/bootstrap.bundle.js"></script>
 </head>
+<body class="lineaire-simple">
 
-<body class="lineaire-create">
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">E2C</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
-<body>
-  <div class="container-fluid">
-    <form method="post" action="../controller/create-PostView.php">
-      <div class="row justify-content-center">
-        <div class="col-10">
-          <label for="carre-photo" class="from-label mt-3"><img src="../asset/pictogrames/ajout-photo" alt="" srcset=""> Photos :</label>
-          <input type="file" name="carre-photo" id="carre-photo" class="form-control ">
-          <label for="titre" class="form-label mt-3">Titre</label>
-          <input type="text" name="titre" id="titre" class="form-control">
-          <label for="description" class="form-label mt-3">Description</label>
-          <textarea name="description" id="description" rows="10" class="form-control"></textarea>
+<main class="container-fluid">
+    <div class="row justify-content-between mt-4">
+
+        <div class="col-size mx-4 p-1 text-center">
+            <img src="../asset/pictogrames/fleche-pictogram.png" class="img-fluid" alt="retour">
         </div>
-      </div>
-    
-  </div>
 
-  <div class="row justify-content-center mt-5">
-    <input type="submit" class="btn  btn-light col-2" value="Poster">
-  </div>
+        <div class="col-size mx-4 p-1 text-center">
+            <img src="../asset/pictogrames/Iconakar-pencil.png" class="img-fluid" alt="retour">
+        </div>
+    </div>
+
+    <div class="row justify-content-between align-items-end mt-4">
+        <div class="pdp-profil ms-4 p-0"> 
+            
+        </div>
+        <h2 class="col-7 m-0 p-0 text-center">Thomas Chartier</h2>
+    </div>
+
+    <div class="row justify-content-between align-items-end mt-4">
+        <div class="col-3 espace-emoji ms-4"></div>
+        <div class="col-7 barre-emoji me-4">
+            <div class="row p-1">
+                <div class="col-2 p-0"><img src="../asset/emoji/emoji-blaze.png" alt="" class="img-fluid"></div>
+                <div id="langue" class="col-2 p-0"><img src="../asset/emoji/emoji-langue.png" alt="" class="img-fluid"></div>
+                <div class="col-2 p-0"><img src="../asset/emoji/emoji-love.png" alt="" class="img-fluid"></div>
+                <div class="col-2 p-0"><img src="../asset/emoji/emoji-malade.png" alt="" class="img-fluid"></div>
+                <div class="col-2 p-0"> <img src="../asset/emoji/emoji-reflechi.png" alt="" class="img-fluid"></div>
+                <div class="col-2 p-0"><img src="../asset/emoji/emoji-triste.png" alt="" class="img-fluid"></div>
+            </div>   
+        </div>
+    </div>
+    <div class="row mt-4 mx-3">
+         <h2>Bio:</h2>
+        <div class="col-12 caree-connexion p-3">
+        <div >
+            <h3 class="">Zone de texte!</h3> 
+
+        </div>
+
+
+        </div>
+    </div> 
     
+    <div class="row justify-content-start mt-4 mx-1 p-3">
+        <a class="text-connect" href="https:\\linkedin.com">
+            <div class="col-12 barre-emoji ">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-3">
+                        <img src="../asset/src/logo-linkedin.png" alt=""class="img-fluid logo-adjust" class="justify-content-start">
+                    </div>
+                    <h1 class="col-6">Connecter</h1>
+                </div>
+                
+            </div>
+        </a>
+        
+    </div>
+
+    <div class="row justify-content-start mt-4 mx-1 p-3">
+        <a class="text-connect" href="https://github.com/">
+            <div class="col-12 barre-emoji ">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-3">
+                        <img src="../asset/src/logo-gitub.png" alt=""class="img-fluid logo-adjust" class="justify-content-start">
+                    </div>
+                    <h1 class="col-6">Connecter</h1>
+                </div>
+                
+            </div>
+        </a>
+        
+    </div>
+
+    
+    
+        
+
+</main>
+     
+
+
+
+
+
+
+    
+    
+</main>
 
 </body>
 </html>
