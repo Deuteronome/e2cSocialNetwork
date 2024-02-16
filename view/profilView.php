@@ -47,7 +47,7 @@
          <h2>Bio:</h2>
         <div class="col-12 caree-connexion p-3">
         <div >
-            <h3>Zone de texte!</h3> 
+            <h3 class="">Zone de texte!</h3> 
 
         </div>
 
