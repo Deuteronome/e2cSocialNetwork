@@ -48,7 +48,7 @@
 </nav>
 <body>
   <div class="container-fluid">
-    <form method="post" action="../controller/createPost.php">
+    <form method="post" action="../controller/create-PostView.php">
       <div class="row justify-content-center">
         <div class="col-10">
           <label for="carre-photo" class="from-label mt-3"><img src="../asset/pictogrames/ajout-photo" alt="" srcset=""> Photos :</label>
