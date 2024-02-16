@@ -1,7 +1,5 @@
 
-     
-      
-     
+ 
      @font-face {
     font-family: "caviar";
     src: url("./caviar.ttf");
@@ -139,6 +137,131 @@
         left: 20%;
       }
 
+
+  .col-size {
+    width: 15vw;
+    aspect-ratio: 5/3;
+    background-color: #fff;
+    box-shadow: inset rgb(93, 93, 93) 0 3px 5px 0, rgb(93, 93, 93) 0px 5px 7px 0;
+    border-radius: 10px ;
+
+  }
+
+  .pdp-profil {
+    width:35vw;
+    aspect-ratio: 1;
+    background-image: url('../asset/pdp/pdp-thomas.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    box-shadow: inset rgb(93, 93, 93) 0 3px 5px 0, rgb(93, 93, 93) 0px 5px 7px 0;
+    border-radius: 10px ;
+
+  }
+
+  .espace-emoji {
+    
+    aspect-ratio: 1;
+    background-color: #fff;
+    box-shadow: inset rgb(93, 93, 93) 0 3px 5px 0, rgb(93, 93, 93) 0px 5px 7px 0;
+    border-radius: 10px ;
+    background-image: url('../asset/emoji/emoji-langue.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  
+  .barre-emoji {
+    
+    aspect-ratio: 6/1;
+    background-color: #fff;
+    box-shadow: inset rgb(93, 93, 93) 0 3px 5px 0, rgb(93, 93, 93) 0px 5px 7px 0;
+    border-radius: 10px ;
+
+  }
+
+  .caree-connexion {
+    
+    aspect-ratio: 5/3;
+    background-color: #fff;
+    box-shadow: inset rgb(93, 93, 93) 0 3px 5px 0, rgb(93, 93, 93) 0px 5px 7px 0;
+    border-radius: 10px ;
+
+  }
+
+  .caree-reseaux {
+    width: 30w;
+    aspect-ratio: 5/3;
+    background-color: #fff;
+    box-shadow: inset rgb(93, 93, 93) 0 3px 5px 0, rgb(93, 93, 93) 0px 5px 7px 0;
+    border-radius: 10px ;
+
+  }
+
+
+  .lineaire-simple {
+    background: linear-gradient(#E5884A, #DB488D);
+  }
+
+  body {
+    min-height: 100vh;
+  }
+
+  #langue {
+    opacity: 50%;
+  }
+
+  .logo-adjust {
+    
+    aspect-ratio: 1;
+  }
+
+ .text-connect{
+    text-decoration: none;
+    color: black;
+  }
+
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar-expand-lg {
+  background-color: #E5884A;
+}
+
+.caree-photo{
+  aspect-ratio: 1;
+  background-color: #fff;
+  box-shadow: inset rgb(93, 93, 93) 0 3px 5px 0, rgb(93, 93, 93) 0px 5px 7px 0;
+  border-radius: 10px ;
+
+}
+
+.lineaire-create {
+  background: linear-gradient(#f3c1a0, #f79dc7);
+}
+
+.caree-titre{
+  aspect-ratio: 6/1;
+  background-color: #fff;
+  box-shadow: inset rgb(93, 93, 93) 0 3px 5px 0, rgb(93, 93, 93) 0px 5px 7px 0;
+  border-radius: 10px ;
+
+}
+
+.caree-text{
+  width: 30w;
+  aspect-ratio: 5/3;
+  background-color: #fff;
+  box-shadow: inset rgb(93, 93, 93) 0 3px 5px 0, rgb(93, 93, 93) 0px 5px 7px 0;
+  border-radius: 10px ;
+}
+
+     
+      
+    
+
       
 
 
@@ -155,4 +278,5 @@ article {
     border: 1px dashed #666;
     padding: 20px;
   }
+
 

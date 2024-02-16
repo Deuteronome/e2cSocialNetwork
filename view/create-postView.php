@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../style/style.css">
     <script src="../script/bootstrap.bundle.js"></script>
 </head>
-
 <body class="lineaire-create">
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -49,7 +48,7 @@
 </nav>
 <body>
   <div class="container-fluid">
-    <form method="post" action="../controller/create-PostView.php">
+    <form method="post" action="../controller/createPost.php">
       <div class="row justify-content-center">
         <div class="col-10">
           <label for="carre-photo" class="from-label mt-3"><img src="../asset/pictogrames/ajout-photo" alt="" srcset=""> Photos :</label>
@@ -67,6 +66,5 @@
     <input type="submit" class="btn  btn-light col-2" value="Poster">
   </div>
     
-
 </body>
 </html>
