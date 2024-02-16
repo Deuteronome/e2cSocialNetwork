@@ -9,6 +9,7 @@
     <script src="../script/bootstrap.bundle.js"></script>
 </head>
 <body>
+    <p>bonjour</p>
     
 </body>
 </html>

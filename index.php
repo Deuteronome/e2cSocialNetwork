@@ -1,3 +1,3 @@
 <?php
 
-header('location: ./controller/home.php');
+header('location: ./controller/create-post.php');
