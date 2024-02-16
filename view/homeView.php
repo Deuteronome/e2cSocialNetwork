@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../style/bootstrap.css">
     <link rel="stylesheet" href="../style/style.css">
     <script src="../script/bootstrap.bundle.js"></script>
-    <script src="../script/script.js"></script>
+   
 </head>
 <body>
 

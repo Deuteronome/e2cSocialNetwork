@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../style/bootstrap.css">
     <link rel="stylesheet" href="../style/connexion.css">
     <script src="../script/bootstrap.bundle.js"></script>
-    <script src="../script/script.js"></script>
+    
 </head>
 <body>
     <img src="../asset/inscription.connection/connexion.png" class="img-fluid"  alt="" srcset="">
