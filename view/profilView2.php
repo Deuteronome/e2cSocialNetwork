@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><!-- Titre de la page - en règle général une variable venant du controller --></title>
+    <title>Profil</title>
     <link rel="stylesheet" href="../style/bootstrap.css">
     <link rel="stylesheet" href="../style/style.css">
     <script src="../script/bootstrap.bundle.js"></script>
@@ -15,7 +15,8 @@
     <div class="row justify-content-between mt-4">
 
         <div class="col-size mx-4 p-1 text-center">
-            <img src="../asset/pictogrames/fleche-pictogram.png" class="img-fluid" alt="retour">
+        <a class="bouton" href="../controller/home.php">
+            <img src="../asset/pictogrames/fleche-pictogram.png" class="img-fluid" alt="retour"></a>
         </div>
 
         <div class="col-size mx-4 p-1 text-center">

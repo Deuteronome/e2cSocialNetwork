@@ -34,6 +34,12 @@
         <div class="col-2 mt-0 rounded-end rounded-bottom  ">
          <a class="bouton" href="../controller/listeAmi.php">
           <img src="../asset/icone/message.webp"  alt=""  class="img-fluid mb-3"></a>
+
+          <div class="row mt-0 justify-content-between align-items-center">
+              <a href="deconnexion.php">
+                <input type="button" value="Se déconnecter"></input>
+              </a>
+          </div> 
           
           
           
