@@ -22,6 +22,10 @@
            <a href="../controller/profil.php"><img  class="img-fluid"src="../asset/pdp/pdp-thomas.jpeg" alt="" width="70" >
            </a>
         </div>
+        <div class="col-2 mt-4 position-absolute top-0 start-100 translate-middle-x">
+           <a href="../controller/profil.php"><img  class="img-fluid"src="../asset/pdp/pdp-thomas.jpeg" alt="" width="70" >
+           </a>
+        </div>
        <div class=" col-3">
         <h2 class=" text-center">Bienvenue <?php echo $_SESSION["pseudo"]?></h2>
         </div>
