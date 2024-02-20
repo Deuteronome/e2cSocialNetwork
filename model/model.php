@@ -51,6 +51,30 @@ function AjoutUilisateur ($bdd, $pseudo, $password, $prenom, $name) {
   return true;
 
 }
+function CreaPost ($bdd, $auteur, $img, $media, $titre, $date ,$tag, $texte) {
+    
+  $sqlQuery = " INSERT INTO post (auteur, img , media , titre, date, tag, texte,) VALUE(:auteur, :img, :media, :titre , :date, :tag ,:texte)";
+  $logStatement = $bdd->prepare($sqlQuery);
+  try {
+    $logStatement->execute([
+      'auteur' => $auteur,
+      'img' => $img,
+      'media' => $media,
+      'titre'  => $titre,
+      'date' => $date,
+      'tag' => $tag,
+      'texte' => $texte
+      ]);
+  } catch(Exception $e) {
+    return false;
+  }
+  
+  
+  $logStatement->closeCursor();
+
+  return true;
+
+}
 
 
 

@@ -8,7 +8,7 @@
     <script src="../script/script.js"></script>
 </head>
 <body>
-    <a class="bouton" href="../controller/home.php">
+    <a class="bouton" href="../view/homeView.php">
     <img src="../asset/inscription.connection/connexion.png" class="img-fluid"  alt="" srcset=""></a>
     
     <H4 class="text-center">photo de profil:</H4>

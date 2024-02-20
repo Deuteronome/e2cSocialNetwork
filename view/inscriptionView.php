@@ -12,7 +12,7 @@
     <img src="../asset/inscription.connection/connexion.png" class="img-fluid"  alt="" srcset=""></a>
     
     
-    <form class="form" method="post" action="../controller/createutilisateur.php">
+    <form class="form" method="post" action="../controller/inscription2.php">
      <h2 class="texte">S'inscrire</h2>
      <label  for="name">nom:</label>
       <input type="text" id="name" name="name" required>

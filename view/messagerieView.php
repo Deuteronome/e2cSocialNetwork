@@ -60,7 +60,7 @@
     <div class="row py-2 justify-content-end">
         <div class="mx-2  bg-light col-8 rec-bla message">
           <div class="col-8 p-2 justify-content-center align-items-center">  
-                <p class="h4">Voici un message d'exemple de la discussion</p>
+                <p class="h4" name="messagerie">Voici un message d'exemple de la discussion</p>
               </div>
         </div>
     </div>
@@ -91,13 +91,17 @@
         </div>
         
 
-        <div class=" col-1 p-0 text-center " >
-            <img src="../asset/Icon_akar-send.png" alt="fleched" class="img-fluid">
-        </div>
+      <form method="POST" action="../controller/messagerie.php"  class=" col-1 p-0 text-center ">
+        <input type="text" name="pseudo">
         
+      <input type="submit" class="btn btn-light btn-sm   col float-right " name="envoyer">
+      </form>
+            
+        
+        <section id="message"></section>
     </div>
     
-
+  
  </main>
 
 

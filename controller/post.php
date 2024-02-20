@@ -3,6 +3,8 @@ session_start();//première fonction à utiliser - si besoin de la variable $_SE
 
 require_once('../model/model.php');
 
+
+
 /*travail de controller 
     - définition des variables
     - vérification des droits 
