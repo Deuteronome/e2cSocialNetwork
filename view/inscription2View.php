@@ -22,7 +22,7 @@
     <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg"  style="display:none"/>
         
     </div>
-    <form action="#" method="post">
+    <form action="../controller/" method="post">
         <div class="container-fluid">
             <h4 class="row justify-content-center"><p class="col text-center">êtes vous référent ?</p> </h4>
         <div class="row justify-content-center">
