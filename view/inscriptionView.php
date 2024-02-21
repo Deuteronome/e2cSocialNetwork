@@ -24,7 +24,7 @@
       <label for="password">mot de passe:</label>
       <input type="password" id="password" name="password" required>
       <input type="submit" name="forminscription" class="connexion btn btn-primary" value="Suivant"> 
-      <a  class="text-decoration-none " href="../view/inscriptionView.php">j'ai deja un  compte</a>
+      <a  class="text-decoration-none " href="../controller/connexion.php">j'ai deja un  compte</a>
     </form>
    
     

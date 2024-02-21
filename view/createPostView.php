@@ -1,3 +1,8 @@
+<?php
+$bdd = new PDO ("mysql:host=127.0.0.1:3306;dbname=reseau_message_e2c;charset=utf8",'e2cmyadmin','TDNe2c');
+$post = $bdd->query('SELECT * FROM post ORDER BY date DESC');
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -15,7 +20,7 @@
         <div class="col-2">
             <img class="img-fluid"  src="../asset/icone/logo.png"  alt="">
         </div>
-        <h2 class="col-4 text-center">Le post de  <?php echo $_SESSION["prenom"] ?></h2>
+        <h2 class="col-4 text-center">Le post de  <?php echo $_SESSION["pseudo"] ?></h2>
         
         <div class="col-2 mt-0 rounded-end rounded-bottom  ">
          <a class="bouton" href="../controller/listeAmi.php">
@@ -28,7 +33,7 @@
   </nav>
   <body>
   <div class="container-fluid">
-    <form method="post" action="../controller/create-post.php">
+    <form method="post" action="../controller/createPost.php">
       <div class="row justify-content-center">
         <div class="col-10">
           <label for="photo" class="from-label mt-3"><img src="../asset/pictogrames/ajout-photo" alt="" srcset=""> Photos :</label>
@@ -47,7 +52,23 @@
 
   </div>
   <br>
- 
+  <?php if(isset($_POST)){
+    array($_POST);
+    if(!empty($titre) && !empty($description) && !empty($photo)){
+      try{
+      $connexion = new PDO ("mysql:host=127.0.0.1:3306;dbname=reseau_message_e2c;charset=utf8",'e2cmyadmin','TDNe2c');
+      $connexion ->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+      echo "connexion ok";
+      }
+      catch(Exception $errorconnexion){
+        die("erreur de connexion  ");
+      }
+    }
+    
+  }  
+  
+
+  ?>
     
 </body>
 </html>
